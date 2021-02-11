@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+header>div>a {
+	display:block;
+	color: rgb(169, 120, 254);
+	font-weight: bold;
+	text-decoration:none;
+	padding-top:10px;
+}
+
+header {
+	width: 1360px;
+	height: 145px;
+	margin: 0 auto;
+}
+
+header>div {
+	float: left;
+	height: 145px;
+}
+#login>a{
+   display: inline-block;
+   padding-top: 10px;
+   margin-left: 10px;
+}
+#community {
+	width: 20%;
+}
+
+#logo {
+	width: 60%;
+	text-align:center;
+}
+#logo>a{
+	display:block;
+	width:20%;
+	height:100%;
+	margin:0 auto;
+}
+
+#login {
+	width: 20%;
+	text-align: right;
+}

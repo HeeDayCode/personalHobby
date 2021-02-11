@@ -1,0 +1,50 @@
+@charset "UTF-8";
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+
+
+}
+
+#container {
+	height: 1000px;
+	/*높이지정*/
+}
+
+#contents_box {
+	width: 85%;
+	height: 100%;
+	float: left;
+}
+
+#pageTitle {
+	width: 100%;
+	float: left;
+	height: 100px;
+	line-height: 80px;
+	font-weight:bold;
+	font-size:30px;
+}
+
+#pageTitle>h2 {
+	height: 100%;
+}
+
+#manual {
+	border: 0;
+	cursor: pointer;
+	padding: 5px;
+	background-color: rgba(169, 120, 254, 0.5);
+}
+
+#contents {
+	clear: both;
+}
+#myChart{
+	margin-top:20px;
+	width:1500px !important;
+	height:800px !important;
+}

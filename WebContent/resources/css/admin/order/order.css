@@ -1,0 +1,154 @@
+* {
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	height: 1300px;
+}
+
+#article_right {
+	width: 82%;
+	float: left;
+}
+
+#orderDelBtn {
+	width: 110px;
+	height: 30px;
+	border: 1px solid rgb(169, 120, 254);
+	background-color: white;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+#orderDelBtn:hover {
+	background-color: rgba(169, 120, 254, 0.3);
+}
+
+#my_myin {
+	font-weight: bolder;
+}
+
+#my_myin_1 {
+	font-weight: lighter;
+}
+
+#my_myin_text1 {
+	padding-bottom: 30px;
+}
+
+#article_right_main>span {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#article_right_top_title_1 {
+	font-weight: bold;
+	text-align: left;
+	line-height: 100px;
+}
+
+#article_right_top_title {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+#article_right_top_title>li {
+	float: left;
+}
+
+#article_right_top {
+	height: 100px;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+}
+
+#article_right_middle_title {
+	background-color: rgb(176, 132, 254, 0.3);
+	padding: 8px;
+	padding-right: 10px;
+}
+
+#article_right_middle_line2 {
+	padding-left: 0px;
+	width: 100%;
+	margin-top: 20px;
+	height: 50px;
+	list-style-type: none;
+}
+
+#article_right_middle_line2>li {
+	float: left;
+}
+
+#article_right_middle_select {
+	margin-right: 10px;
+	padding-top: 3px;
+}
+
+#article_right_middle_search {
+	padding-top: 3px;
+}
+
+#article_right_middle_search>input {
+	width: 350px;
+	height: 30px;
+}
+
+#post_select {
+	width: 120px;
+	height: 30px;
+	margin-left: 10px;
+}
+
+#article_right_main {
+	border: 3px solid #D4D4D4;
+	width: 100%;
+	height: 1000px;
+	padding-top: 10px;
+}
+
+#article_right_main>span {
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: lighter;
+	padding-left: 16px;
+}
+
+#article_right_submain {
+	width: 100%;
+	height: 1000px;
+	float: bottom;
+	width: 98%;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+#post_delete {
+	height: 30px;
+	margin: 20px 0px 20px 10px;
+}
+
+#post_table {
+	width: 100%;
+	border: 1px solid #D4D4D4;
+	line-height: 30px;
+}
+
+#post_table>th {
+	width: 100%;
+}
+
+#search_list {
+	background-color: rgb(212, 212, 212, 0.4);
+}
+
+#post_list>td {
+	text-align: center;
+	border: 1px solid #D4D4D4;
+}

@@ -1,0 +1,122 @@
+div {
+	box-sizing: border-box;
+	margin: 0px auto;
+	
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#content {
+	width: 100%;
+	height: 300px;
+}
+.different_community{
+	margin-right:10px;
+	margin-top:10px;
+}
+#box {
+	width: 100%;
+	height: 400px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 70px;
+	float: left;
+}
+
+#box>div {
+	float: left;
+}
+
+#div_left {
+	width: 5%;
+	height: 100%;
+}
+
+#div_mid {
+	width: 90%;
+	height: 100%;
+}
+
+#div_right {
+	width: 5%;
+	height: 100%;
+}
+
+.arrow {
+	width: 50px;
+	margin-top: 190px;
+	margin-bottom: 190px;
+}
+
+#arrow_left {
+	padding-right: 15px;
+	float: right;
+}
+
+#arrow_right {
+	padding-left: 15px;
+	float: left;
+}
+
+.different_community {
+	width: 20%;
+	height: 100%;
+	background-color: rgba(169, 120, 254, 0.2);
+	padding-top: 10px;
+	float: left;
+}
+
+.text_box {
+	width: 100%;
+	height: 30%;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 18px;
+	line-height: 35px;
+}
+
+.text-info>table{
+	width:100%;
+	height:60%;
+	padding:5px;
+}
+
+.community-box{
+	padding-top :10px;
+	width: 100%;
+	height: 70%;
+}
+
+.community-pic{
+	width:100%;
+	height:85%;
+}
+
+.community-pic>a>img{
+	width:80%;
+	height:100%;
+}
+
+.community-write{
+	width:100%;
+	height: 15%;
+	text-align:left;
+	padding-left:30px;
+}
+
+.text-info{
+	width: 100%;
+	height: 30%;
+	text-align:left;
+	padding-left:30px;
+}
+
+.info-img{
+	width: 100%;
+	height: 10%;
+}
+
+

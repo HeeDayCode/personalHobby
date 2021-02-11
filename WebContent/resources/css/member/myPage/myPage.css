@@ -1,0 +1,342 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+}
+
+#warpper {
+	margin: 0 auto;
+}
+
+#contents {
+	width: 1820px;
+	height: 2000px;
+	margin: 0 auto;
+}
+
+#contents-1 {
+	width: 14%;
+	height: 100%;
+	float: left;
+}
+
+#contents-2 {
+	width: 86%;
+	height: 100%;
+	float: right;
+}
+
+#contents-1-1 {
+	margin-top: 65%;
+}
+
+#contents-1-1>a {
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 100px;
+	cursor: pointer;
+}
+
+.contents-1-2 {
+	list-style-type: none;
+	color: black;
+}
+
+.contents-1-2>a {
+	text-decoration: none;
+	color: black;
+	line-height: 40px;
+	cursor: pointer;
+}
+
+#contents-2-1 {
+	width: 100%;
+	height: 10%;
+}
+
+#contents-2-2 {
+	width: 100%;
+	height: 5%;
+}
+
+#contents-2-3 {
+	padding-top: 20px;
+	width: 100%;
+	height: 38%;
+}
+
+#contents-2-3 div {
+	display: block;
+}
+
+#contents-2-3-1 {
+	width: 50%;
+	height: 85%;
+	float: left;
+}
+
+#page1navi {
+	height: 15%;
+}
+
+#contents-2-3-2 {
+	width: 50%;
+	height: 100%;
+	float: right;
+	box-sizing: border-box;
+}
+
+#contents-2-3-2>div {
+	width: 85%;
+	height: 10%;
+	margin: 0 auto;
+}
+
+#comments1 {
+	border-bottom: 4px solid black;
+}
+
+#comments2 {
+	border-bottom: 2px solid black;
+}
+
+.comments3 {
+	border-bottom: 1px solid black;
+}
+
+.comments2-1 {
+	display: grid;
+	float: left;
+	padding-top: 15px;
+	font-weight: bolder;
+}
+
+.comments3-1 {
+	display: grid;
+	float: left;
+	padding-top: 15px;
+	padding-left: 15px;
+}
+
+#comments3-2 {
+	padding-left: 42px;
+}
+
+#comments2-1 {
+	padding-right: 60px;
+	padding-left: 32px;
+}
+
+#comments2-2 {
+	width: 110px;
+	heigth: 18px;
+	position: left;
+}
+
+#contents-2-2 {
+	padding-top: 22px;
+	background-color: rgba(172, 132, 254, 0.2);
+	padding-rigth: 10px;
+}
+
+.contents-middle {
+	list-style-type: none;
+	float: left;
+	hight: 100%;
+	width: 25%;
+	font-size: 25px;
+	color: #707070;
+	padding: 8px 10px 15px;
+}
+
+.content-post-img {
+	border: 1px solid green;
+	width: 33%;
+	float: left;
+	margin-top: 40px;
+	margin-left: 1px;
+	text-align: center;
+}
+
+#contents-2-1 {
+	padding-top: 30px;
+}
+
+#contents-2-1>ul {
+	text-align: center;
+	list-style-type: none;
+}
+
+#contents-2-1>ul>li>a {
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	font-weight: bolder;
+	line-height: 40px;
+	cursor: pointer;
+}
+
+#contents-2-1>ul>li>span {
+	font-weight: bolder;
+}
+
+#profileImg>li {
+	line-height: 30px;
+}
+
+#heartList>a {
+	font-size: 15px;
+}
+
+#heartList>a:hover {
+	background-color: red;
+}
+
+.content-post-img>ul {
+	text-align: left;
+	list-style-type: none;
+}
+
+.content-post-img>ul>li {
+	line-height: 30px;
+	padding-right: 30px;
+}
+
+#heartList-hidden {
+	width: 700px;
+	height: 500px;
+	margin: 0 auto;
+	background-color: #FCFCFC;
+	border-top: 1px solid #707070;
+	border-bottom: 1px solid #707070;
+	position: absolute;
+	margin-left: 670px;
+	overflow: auto;
+}
+
+#heartList-hidden>ul>li {
+	float: left;
+	padding-left: 30px;
+	list-style-type: none;
+}
+
+#heartList-hidden>ul>li {
+	float: left;
+	padding-left: 30px;
+	list-style-type: none;
+}
+
+#heartList-subject {
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 30px;
+	padding-right: 43px;
+}
+
+#store>a {
+	color: #B084FE !important;
+}
+
+#comment-list {
+	width: 50%;
+	height: 100%;
+	float: right;
+	overflow: auto;
+}
+
+table {
+	width: 100%;
+	text-align: left;
+	padding: 30px;
+	font-size: 18px;
+	line-height: 45px;
+}
+
+.comment-list-left {
+	text-align: center;
+	border-bottom: 1px solid #707070;
+	width: 30%;
+}
+
+#testtest>th {
+	border-top: 5px solid #707070;
+	border-bottom: 3px solid #707070;
+}
+
+.comment-list-left>a {
+	text-decoration: none;
+	width: 30%;
+	color: black;
+}
+
+.comment-list-right {
+	text-align: l;
+	border-bottom: 1px solid #707070;
+	width: 70%;
+}
+
+.comment-list-right>a {
+	color: black;
+	text-decoration: none;
+	width: 70%;
+}
+
+#contents-2-3-1 {
+	overflow: auto;
+}
+
+#contents-2-3-1>ul {
+	width: 33%;
+	float: left;
+	list-style-type: none;
+	padding: 0px;
+}
+
+#contents-2-3-1>ul>li {
+	line-height: 30px;
+}
+
+.heartList-content-subject {
+	float: left;
+	color: black;
+	text-decoration: none;
+	curser: point;
+	padding-bottom: 50px;
+}
+
+#HeartList-subject {
+	width: 100%;
+	height: 5%;
+	padding-top: 22px;
+	background-color: rgba(172, 132, 254, 0.2);
+	padding-rigth: 10px;
+}
+
+#HeartList {
+	padding-top: 20px;
+	width: 100%;
+	height: 38%;
+}
+
+#HeartList-subject {
+	padding-top: 30px;
+}
+
+#HeartList-content>ul {
+	width: 20%;
+	float: left;
+	list-style-type: none;
+	padding: 0px;
+}
+
+#HeartList-content>ul>li {
+	line-height: 30px;
+}
+
+#HeartList-subject>span {
+	padding-left: 20px;
+	font-size: 25px;
+	color: #707070;
+}

@@ -1,0 +1,110 @@
+@charset "UTF-8";
+* {
+   margin:0;
+   padding: 0;
+   text-decoration: none;
+   box-sizing: border-box;
+   list-style:none;
+}
+#container {
+   width: 100%;
+   height:600px;
+/*높이 자유지정 */
+}
+#find_box{
+   margin:20px auto;
+   width:650px;
+   height:400px;
+}
+#find_box>ul{
+   height:15%;
+}
+#find_box>ul>li{
+   float:left;
+   width:50%;
+   height:100%;
+   border-bottom:2px solid rgb(169,120,254);
+   text-align:center;
+   line-height:50px;
+   cursor:pointer;
+}
+#find_box>ul>li>a{
+	width:100%;
+	height:100%;
+	text-decoration: none;
+	color:black;
+	display:block;
+}
+#find_box>ul>li>a:hover{
+	color:white;
+	font-weight:bold;
+}
+#find_box>ul>li:nth-child(1){
+   border-right:2px solid rgb(169,120,254);
+}
+#find_box>ul>li:hover{
+   background-color:rgba(169,120,254);
+   color:white;
+}
+#find_box>div{
+   height:90%;
+   padding-top:10px;
+}
+#find_box fieldset{
+   border:0;
+}
+#find_box legend{
+   text-align:center;
+}
+#find_box p{
+   text-align:center;
+   height:50px;
+   line-height:50px;
+}
+#check_box{
+   text-align:center;
+   height:50px;
+}
+#phone_box{
+   display:none;
+}
+
+
+#phone_box_pw{
+   display:none;
+}
+.find_input{
+   width:70%;
+   height:80px;
+   margin:0 auto;
+   border:1px solid lightgrey;
+   border-collapse:collapse;
+}
+.find_input input{
+   width:80%;
+   height:80%;
+   margin:1% 1%;
+   border-radius:10px;
+   background-color:rgba(100,100,100,0.1);
+   border:0;
+}
+.find_input th{
+   text-align:center;
+   width:40%;
+}
+#find_box button{
+   width:100%;
+   height:40px;
+   margin-top:20px;
+   border:0;
+   border-radius:10px;
+   background-color:rgb(169, 120, 254);
+   color:white;
+   cursor:pointer;
+}
+#phone_box_pw td{
+   height:40px;
+}
+#email_box_pw td{
+   height:40px;
+}

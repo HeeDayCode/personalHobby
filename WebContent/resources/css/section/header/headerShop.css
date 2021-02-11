@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+div {
+	box-sizing: border-box;
+	margin: 0px auto;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+header>div>a {
+	display: block;
+	color: rgb(169, 120, 254);
+	font-weight: bold;
+	text-decoration: none;
+	padding-top: 10px;
+}
+header>div>a:hover{
+	color: rgb(169, 120, 254);
+	text-decoration: none;
+}
+header {
+	width: 1360px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+header>div {
+	float: left;
+	height: 100%;
+}
+#login>a{
+   display: inline-block;
+   padding-top: 10px;
+   margin-left: 10px;
+}
+#community {
+	width: 20%;
+}
+
+#logo {
+	width: 60%;
+	text-align: center;
+}
+
+#logo>a {
+	display: block;
+	width: 60%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#logo>a>img {
+	margin-top: 10%;
+	height: 50%;
+}
+
+#login {
+	width: 20%;
+	text-align: right;
+}

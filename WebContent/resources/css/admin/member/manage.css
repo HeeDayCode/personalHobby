@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	text-decoration: none;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+#container{
+	height:1000px;
+}
+
+
+#pageTitle {
+	width: 100%;
+	float: left;
+	height: 100px;
+	line-height: 80px;
+	font-weight:bold;
+	font-size:30px;
+}
+
+#pageTitle>h2 {
+	height: 100%;
+}
+
+#manual {
+	border: 0;
+	cursor: pointer;
+	padding: 5px;
+	background-color: rgba(169, 120, 254, 0.5);
+}
+section{
+	width:85%;
+	height:100%;
+	float:left;
+}
+#sectionWrap{
+	width: 95%;
+	height: 700px;
+	padding: 10px;
+	border: 5px solid lightgray;
+	float : left;
+}
+#sectionWrap th{
+	width: 250px;
+	padding: 10px;
+	background-color: lightgray;
+	border: 1px solid gray;
+}
+#sectionWrap td{
+	width: 1340px;
+	padding: 10px;
+	border: 1px solid gray;
+}
+#searchOpt{
+	width: 100px;
+}
+#buttonPanel{
+	width: 100%;
+}
+#memberDeleteBtn{
+	float: left;
+	margin: 5px;
+}
+#memberInsertBtn{
+	float: right;
+	margin: 5px;
+}
+.buttonRayout{
+	padding: 0 10px;
+}

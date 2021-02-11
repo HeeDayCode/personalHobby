@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+div {
+	box-sizing: border-box;
+	margin: 0px auto;
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+header>div>a {
+	display: block;
+	color: rgb(169, 120, 254);
+	font-weight: bold;
+	text-decoration: none;
+	padding-top: 10px;
+}
+
+header {
+	height: 300px;
+	margin: 0 auto;
+}
+
+header>div {
+	width: 1360px;
+	float: left;
+	height: 100%;
+}
+
+#login {
+	padding-right: 250px;
+}
+
+#login a {
+	display: inline-block;
+	padding-top: 10px;
+	margin-left: 10px;
+}
+
+#shop {
+	width: 30%;
+}
+
+#shop>a {
+	display: inline-block;
+	padding-top: 10px;
+	margin-left: 250px;
+}
+
+#logo {
+	width: 40%;
+	text-align: center;
+}
+
+#logo>a {
+	display: block;
+	width: 60%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#logo>a>img {
+	margin-top: 10%;
+	height: 60%;
+}
+
+#login {
+	width: 30%;
+	text-align: right;
+}

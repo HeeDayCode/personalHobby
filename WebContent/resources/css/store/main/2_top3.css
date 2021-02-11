@@ -1,0 +1,219 @@
+div {
+	box-sizing: border-box;
+	margin: 0px auto;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#content {
+	width: 1820px;
+	padding-top: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.title {
+	margin-left: 60px;
+	font-size: 30px;
+}
+
+#carouselExampleFade {
+	width: 100%;
+	height: 450px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.whole div {
+	float: left;
+}
+
+.whole {
+	width: 70%;
+	height: 100%;
+}
+
+.top_img {
+	width: 50%;
+	height: 100%;
+	position: relative;
+	z-index: 1;
+	margin-top: 10px;
+}
+
+.t_img {
+	width: 75%;
+	height: 100%;
+	border-radius: 20px;
+	background-color: black;
+}
+
+.top_text {
+	width: 50%;
+	height: 100%;
+	margin-top: 30px;
+}
+
+.c_content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 75%;
+	height: 100%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 20px;
+}
+
+.c_content>p {
+	margin-top: 80px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 95%;
+	height: 30%;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: inline-block;
+}
+
+.hidden_text {
+	position: relative;
+	color: white;
+	font-size: 20px;
+	display: none;
+	z-index: 3;
+}
+
+.top_text div {
+	float: left;
+	color: black;
+}
+
+.top_text>div {
+	width: 90%;
+	height: 21%;
+	border: 1px solid gray;
+	border-radius: 20px;
+	margin-bottom: 18px;
+	padding-left: 10px;
+	padding-top: 5px;
+	margin-left: 20px;
+	box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+}
+
+.top_text>div:hover {
+	box-shadow: 5px 5px 3px rgba(147, 112, 219, 0.5);
+}
+
+.top_text a {
+	text-decoration: none;
+}
+
+.top_rank {
+	width: 15%;
+	height: 100%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.top_rank>a>span {
+	width: 75%;
+	height: 90%;
+	margin-right: 25px;
+	text-align: center;
+	display: block;
+	border-radius: 50%;
+	background-color: rgba(169, 120, 254, 0.1);
+	font-size: 35px;
+	color: gray;
+}
+
+.top_rank>a>span:hover {
+	background-color: rgba(169, 120, 254, 0.3);
+}
+
+.top_comment {
+	width: 64%;
+	height: 100%;
+}
+
+.top_text:hover{
+	cursor: pointer;
+}
+
+.top_review {
+	width: 100%;
+	height: 65%;
+	padding-right: 15px;
+	padding-top: 3px;
+}
+
+.top_review>p {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: normal;
+	word-wrap: break-word;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.top_review>p>a {
+	color: black;
+}
+
+.top_tag {
+	width: 100%;
+	height: 35%;
+	font-size: 12px;
+}
+
+.top_heart {
+	width: 18%;
+	height: 100%;
+	padding-top: 30px;
+	font-size: 16px;
+}
+
+.top_heart>span {
+	margin-left: 5px;
+	color: red;
+}
+
+.heart-icon {
+	color: red;
+}
+
+.arrow {
+	width: 50px;
+	height: 40px;
+}
+
+#arrow_left {
+	padding-right: 15px;
+	float: right;
+}
+
+#arrow_right {
+	padding-left: 15px;
+	float: left;
+}
+
+#arrow_left:hover {
+	cursor: pointer;
+}
+
+#arrow_right:hover {
+	cursor: pointer;
+}

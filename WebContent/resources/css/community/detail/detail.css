@@ -1,0 +1,329 @@
+@charset "UTF-8";
+
+* {
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Nanum Gothic', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;	
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
+#wrapper {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+#header {
+	width: 100%;
+	height: 145px;
+}
+
+#navigator {
+	width: 100%;
+	height: 55px;
+}
+
+#footer {
+	width: 100%;
+	height: 145px;
+	text-align: center;
+}
+
+/* .headerInner {
+	box-sizing: border-box;
+	width: 1360px;
+	height: 55px;
+	margin: 0 auto;
+} */
+.contents {
+	width: 1360px;
+	height: 2000px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.contents>div {
+	float: left;
+	height: 1300px;
+}
+
+#contents-main {
+	width: 100%;
+	height:1400px;
+}
+
+.main-content {
+	padding-top: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.side-title {
+	border-bottom: 1px solid rgba(228, 228, 228, 0.5);
+	padding-bottom: 25px;
+	margin-bottom: 30px;
+}
+
+.side-title h2 {
+	margin-bottom: 0px;
+}
+
+.side-title ul {
+	margin-top: 5px;
+	margin-left: 3px;
+}
+
+.side-title ul li {
+	float: left;
+	margin-right: 21px;
+	font-weight: 300;
+	color: rgba(30, 38, 44, 0.5);
+	font-size: 12px;
+}
+
+.sub-section {
+	font-size: 14px;
+	margin: 0 auto 30px;
+	border-bottom: 1px solid rgba(228, 228, 228, 0.5);
+}
+
+#sub-section-contentMain {
+	padding-bottom: 15px;
+	height:100px;
+}
+#sub-section-contentMain>p{
+	margin-bottom:15px;
+}
+
+.hashtag-section {
+	height: 50px;
+	border-bottom: 1px solid rgba(228, 228, 228, 0.5);
+}
+
+.hashtag-section button {
+	margin-top: 10px;
+	margin-right: 5px;
+	background: none;
+	float: left;
+	padding: 6px 15px;
+	border: 1px solid #B0B0B0;
+	border-radius: 99px;
+}
+
+.hashtag-section button span {
+	font-size: 12px;
+	font-weight: 400;
+	color: #B0B0B0;
+}
+
+.slide-wrapper {
+	width: 1070px;
+	margin: 0px 10px 0px 10px;
+	padding: 30px 0;
+}
+
+.responsive {
+	margin-top: 10px;
+}
+
+.comment-section {
+	height: 500px;
+}
+
+.comment-title {
+	margin-bottom: 10px;
+	height: 25px;
+	display: block;
+}
+
+.comment-title span {
+	color: purple;
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.comment-write {
+	height: 60px;
+}
+
+.comment-write textarea {
+	word-break: break-word;
+	width: calc(100% - 90px);
+	height: 60px;
+	margin-right: 10px;
+	border-radius: 10px;
+	border: 1px solid #e4e4e4;
+	background: #fff;
+	color: #48484d;
+	font-size: 14px;
+	font-weight: 300;
+	padding: 10px;
+	float: left;
+	resize: none;
+}
+
+.submit {
+	float: right;
+	width: 80px;
+	height: 60px;
+	border-radius: 10px;
+	border: 1px solid purple;
+	color: purple;
+	font-size: 15px;
+	font-weight: 400;
+	background: none;
+}
+
+.text-comment {
+	margin-top: 20px;
+	height: 140px;
+}
+
+.text-comment>ul>li {
+	padding: 20px 0;
+	border-top: 1px solid rgba(176, 176, 176, 0.5);
+	border-bottom: 1px solid rgba(176, 176, 176, 0.5);
+}
+
+.profile {
+	height: 20px;
+}
+
+.profile>p {
+	color: #48484d;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 18px;
+	float: left;
+	margin: 0px 5px 0px 0px;
+}
+
+.profile>ul li {
+	float: left;
+	margin-right: 5px;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 18px;
+	color: rgba(30, 38, 44, 0.5);
+}
+
+.comment-wrapper .profile>ul::before {
+	left: -11px;
+	top: 3px;
+	content: "";
+	display: block;
+	width: 1px;
+	height: 12px;
+	background: rgba(112, 112, 112, 0.5);
+	position: absolute;
+}
+.comment-text>pre{
+	width:50%;
+	float:left;
+}
+#commentBtn{
+	width:50%;
+}
+#commentBtn button{
+	padding:1%;
+	border:1px solid rgb(169, 120, 254);
+	color:rgb(169, 120, 254);
+	background-color:white;
+	cursor:pointer;
+}
+.comment-wrapper{
+	height:50px;
+}
+#backtotop {
+	cursor: pointer;
+	display: none;
+	margin: 0% 0% 0% 80%; /*이미지 위치*/
+	position: fixed;
+	bottom: 20px;
+	padding: 10px 22px 10px 10px;
+	width: 152px;
+	text-align: center;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	opacity: 0.6;
+	color: #FFF;
+	font-size: 14px;
+	z-index: 1000;
+}
+
+#backtotop:hover {
+	filter: alpha(opacity = 90);
+	-khtml-opacity: 0.9;
+	-moz-opacity: 0.9;
+	opacity: 0.9;
+}
+
+#backtotop img {
+	width: 80px;
+	height: 80px;
+}
+
+#heartClick {
+	cursor: pointer;
+	position: fixed;
+	top: 72%;
+	left: 92%;
+	right: 0;
+	opacity: 0.6;
+}
+
+#heartClick:hover {
+	filter: alpha(opacity = 90);
+	-khtml-opacity: 0.9;
+	-moz-opacity: 0.9;
+	opacity: 0.9;
+}
+
+#heartClick img {
+	width: 80px;
+	height: 80px;
+}
+
+#red-heart{
+	display: none;
+}
+#modifyBtn{
+	border:1px solid rgb(169, 120, 254);
+	padding:10px;
+	background-color:white;
+	color:rgb(169, 120, 254);
+	cursor:pointer;
+}
+#deleteBtn{
+	border:1px solid rgb(169, 120, 254);
+	padding:10px;
+	background-color:white;
+	color:rgb(169, 120, 254);
+	cursor:pointer;
+}
+#modifyBtn:hover{
+	background-color:rgb(169, 120, 254);
+	color:white;
+}
+#deleteBtn:hover{
+	background-color:rgb(169, 120, 254);
+	color:white;
+}
+#modifyForm{
+	float:left;
+}
+#deleteForm{
+	float:left;
+}

@@ -1,0 +1,118 @@
+#t-wrapper {
+	width: 700px;
+	height: 300px;
+	background-color: white;
+	border-radius: 20px;
+	display: none;
+	position: relative;;
+	z-index: -1;
+	padding: 20px;
+}
+
+#t-wrapper div {
+	float: left;
+	display: inline-block;
+	border-radius: 20px;
+}
+
+#t-1 {
+	width: 70%;
+	height: 100%;
+}
+
+/*퍼즐/조립/브릭*/
+#t-2 {
+	width: 30%;
+	height: 100%;
+	background-image: url("/resources/images/category/t-wrapper/t_7.jpg");
+	background-size: 200%;
+	background-position: center;
+}
+
+#t-3 {
+	width: 100%;
+	height: 70%;
+}
+
+#t-4 {
+	width: 100%;
+	height: 30%;
+}
+/*실과 바늘*/
+#t-5 {
+	width: 40%;
+	height: 100%;
+	background-image: url("/resources/images/category/t-wrapper/t_1.jpg");
+	background-size: 200%;
+}
+
+#t-6 {
+	width: 20%;
+	height: 100%;
+}
+/*라이프/소품 키트*/
+#t-7 {
+	width: 40%;
+	height: 100%;
+	background-image: url("/resources/images/category/t-wrapper/t_3.jpg");
+	background-size: 200%;
+	background-position: center;
+}
+/*가죽 공예*/
+#t-8 {
+	width: 100%;
+	height: 50%;
+	background-image: url("/resources/images/category/t-wrapper/t_5.jpg");
+	background-size: 130%;
+}
+/*미술 키트*/
+#t-9 {
+	width: 100%;
+	height: 50%;
+	background-image: url("/resources/images/category/t-wrapper/t_2.jpg");
+	background-size: 200%;
+}
+
+/*베이킹/데코 키트*/
+#t-10 {
+	width: 70%;
+	height: 100%;
+	background-image: url("/resources/images/category/t-wrapper/t_4.jpg");
+	background-size: 100%, 50%;
+	background-position: center;
+}
+/*비즈 공예*/
+#t-11 {
+	width: 30%;
+	height: 100%;
+	background-image: url("/resources/images/category/t-wrapper/t_6.jpg");
+	background-size: 100%;
+	background-position: center;
+}
+
+.t-img a {
+	opacity: 0.6;
+}
+
+.t-img:hover {
+	opacity: 1;
+}
+
+#t-wrapper a {
+	border: 1px solid white;
+	box-sizing: border-box;
+	list-style-type: none;
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	box-sizing: border-box;
+	border-radius: 20px;
+	background-color: rgba(0,0,0,0.6);
+}
+
+#t-wrapper a:hover {
+	font-weight: bolder;
+}

@@ -1,0 +1,49 @@
+@charset "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	text-align:center;
+}
+#container {
+	width: 100%;
+	height:600px;
+/*높이 자유지정 */
+}
+#container>h1{
+	height:20%;
+	line-height:120px;
+}
+#container>p{
+	color:grey;
+	height:10%;
+	line-height:60px;
+}
+#container>div{
+	width:360px;
+	height:70%;
+	margin:0 auto;
+}
+#container>div>a{
+	display:block;
+	float:left;
+	color:rgb(169, 120, 254);
+	border:2px solid rgb(169, 120, 254);
+	background-color:white;
+	width:49%; height:50px;
+	line-height:50px;
+	border-radius:10px;
+	font-weight:bold;
+}
+#container>div>a:nth-child(2){
+	float:right;
+}
+#container>div>a:hover{
+	color:white;
+	background-color:rgb(169, 120, 254);
+}
+
+
+
+

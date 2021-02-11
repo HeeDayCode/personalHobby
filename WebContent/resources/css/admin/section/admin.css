@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+#container {
+	height: 1000px;
+	/*높이지정*/
+}
+
+#contents_box {
+	width: 50%;
+	height: 30%;
+	float: left;
+	margin-left: 100px;
+	margin-top: 150px;
+}
+
+#pageTitle {
+	width: 100%;
+	float: left;
+	height: 100px;
+	line-height: 80px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#snb-dayInfo>span {
+	font-size: 24px;
+}
+
+#reNew {
+	display: inline-block;
+	color: black;
+	background-color: rgba(169, 120, 254, 0.2);
+	height: 50px;
+	line-height: 50px;
+	font-weight: bold;
+	font-size: 24px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+}
+
+#reNew:hover {
+	background-color: rgba(169, 120, 254, 0.5);
+}

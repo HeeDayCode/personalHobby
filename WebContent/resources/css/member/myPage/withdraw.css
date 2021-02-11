@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/*
+#wrapper{
+    width: 1820px;
+    margin: 0 auto;
+}
+
+
+
+header{
+    width: 100%;
+    height: 155px;
+}
+*/
+
+
+
+nav{
+    width: 100%;
+    height: 45px;
+}
+#middleWrapper{
+    width: 1820px;
+    height:600px;
+    margin:0 auto;
+}
+
+
+aside{
+    width: 230px;
+    padding: 10px;
+    clear: both;
+    float: left;
+}
+#asideTitle{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+#asideTitle>p{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+#asideMenu li{
+    margin: 10px 0;
+}
+#asideMenu a{
+    font-weight: bold;
+}
+
+
+section{
+    width: 1590px;
+    float: right;
+}
+/* #profileHeader{
+    width: 100%;
+    height: 250px;
+} */
+#modifyContainer{
+    padding: 20px 400px;
+}
+#modifyTitle{
+    height: 40px;
+}
+#modifyTitle>h2{
+    float: left;
+}
+#withdrawWrap{
+    float: right;
+}
+#withdrawWrap>a{
+    font-size: 0.5rem;
+    color: gray;
+}
+#withdrawWrap img{
+    position: relative;
+    top: 1px;
+}
+
+#modifyPanel>form>div{
+    margin: 20px 0;
+}
+.inputLable{
+    width: 150px;
+    line-height: 40px;
+    float: left;
+}
+.inputWrap{
+    margin-left: 150px;
+}
+.inputWrap>input{
+    width: 640px;
+    height: 40px;
+    padding: 0 15px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.inputWrap>span{
+    font-size: 0.7rem;
+}
+#phoneInput{
+    width: 170px;
+}
+#phoneBtn{
+    width: 113px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #b084fe;
+    background-color: #b084fe;
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+}
+#smsNo{
+    width: 521px;
+}
+#addressPanel{
+    text-align: right;
+}
+#addressPanel>input{
+    margin-bottom: 5px;
+}
+#postCode{
+    width: 521px;
+}
+#profileImgWindow{
+    width: 150px;
+    height: 150px;
+    background-color: lightgray;
+    border-radius: 10px;
+    display: inline-block;
+}
+#profileImgWindow+input{
+    width: 300px;
+    border: none;
+}
+#introArea{
+    width: 640px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    padding: 15px;
+}
+#modifyBtnPanel{
+    text-align: center;
+    padding: 30px 0;
+}
+#modifyBtnPanel>input{
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #b084fe;
+    background-color: #b084fe;
+    color: white;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: 145px;
+    clear: both;
+}

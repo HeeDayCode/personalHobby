@@ -1,0 +1,16 @@
+div {
+	box-sizing: border-box;
+	margin: 0px auto;
+}
+
+#carouselExampleIndicators {
+	width: 100%;
+	height: 520px;
+	margin-bottom: 50px;
+	position: relative;
+	z-index: 0;
+}
+
+.ad_img {
+	height: 520px;
+}

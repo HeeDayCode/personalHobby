@@ -1,0 +1,40 @@
+div {
+	box-sizing: border-box;
+	margin: 0px auto;
+}
+
+#category_img {
+	width: 100%;
+	height: 300px;
+	margin-bottom: 50px;
+	position: relative;
+	z-index: -1;
+}
+
+#category_img>img {
+	width: 100%;
+	height: 300px;
+	position: relative;
+}
+
+#category_text {
+	position: absolute;
+	color: white;
+	background: #808080;
+	background: rgba(0, 0, 0, 0.3);
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transform: translate(0, -100%);
+	padding-top:50px;
+}
+
+#category_text>span:first-child {
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 120px;
+}
+
+#category_text>span:last-child {
+	font-size: 30px;
+}
